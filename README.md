@@ -62,7 +62,26 @@ El comando de **init**, te iniciará un repositorio de **git**.
 ```
     git add <archivo>
 ```
+Para añadir todos los archivos se ejecuta el siguiente comando.
+```
+    git add .
+```
 **Estatus de los archivos**
 ```
     git status
+```
+
+**Ver los cambios generados**
+```
+    git log
+```
+
+**Regresar un cambio de archivo**
+```
+    git checkout -- <archivo>
+```
+
+**Ver la diferencia de los archivos**
+```
+    git diff -- <archivo>
 ```
