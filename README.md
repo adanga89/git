@@ -87,7 +87,23 @@ Para añadir todos los archivos se ejecuta el siguiente comando.
 ```
 **Guardar cambios**
 ```
-    git commit "[mensaje]"
+    git commit -m "[mensaje]"
 ```
 **Ignorar archivos**
-Para ignorar archivos que no se requieran en el repositorio se crea un archivo llamado "**.gitignore**"
+
+Para ignorar archivos que no se requieran en el repositorio se crea un archivo llamado "**.gitignore**". Dentro del archivo solo tienes que ingresar el nombre del archivo(s) o libreria(s) que quieres que no esten en el repositorio.
+
+### **Crear nueva Ramas o Subproyectos (Branch)**
+
+**Muestra todas las ramas que se han creado.**
+```
+    git branch
+```
+**Crear nueva rama**
+```
+    git branch <nombreDeLaRama>
+```
+**Seleccionar una rama (branch)**
+```
+    git checkout <nombreDeLaRama>
+```
