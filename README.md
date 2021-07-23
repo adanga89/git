@@ -107,3 +107,7 @@ Para ignorar archivos que no se requieran en el repositorio se crea un archivo l
 ```
     git checkout <nombreDeLaRama>
 ```
+**Combinar ramas**
+```
+    git merge <nombreDeLaRama>
+```
