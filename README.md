@@ -85,3 +85,9 @@ Para añadir todos los archivos se ejecuta el siguiente comando.
 ```
     git diff -- <archivo>
 ```
+**Guardar cambios**
+```
+    git commit "[mensaje]"
+```
+**Ignorar archivos**
+Para ignorar archivos que no se requieran en el repositorio se crea un archivo llamado "**.gitignore**"
